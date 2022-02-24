@@ -16,6 +16,7 @@
 		9B755C6627C7E0030091D473 /* TekSayfalikTasarimOdeviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B755C6527C7E0030091D473 /* TekSayfalikTasarimOdeviTests.swift */; };
 		9B755C7027C7E0030091D473 /* TekSayfalikTasarimOdeviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B755C6F27C7E0030091D473 /* TekSayfalikTasarimOdeviUITests.swift */; };
 		9B755C7227C7E0030091D473 /* TekSayfalikTasarimOdeviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B755C7127C7E0030091D473 /* TekSayfalikTasarimOdeviUITestsLaunchTests.swift */; };
+		9B755C8027C7E9BD0091D473 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B755C7F27C7E9BD0091D473 /* Roboto-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B755C6B27C7E0030091D473 /* TekSayfalikTasarimOdeviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TekSayfalikTasarimOdeviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B755C6F27C7E0030091D473 /* TekSayfalikTasarimOdeviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekSayfalikTasarimOdeviUITests.swift; sourceTree = "<group>"; };
 		9B755C7127C7E0030091D473 /* TekSayfalikTasarimOdeviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TekSayfalikTasarimOdeviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B755C7F27C7E9BD0091D473 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				9B755C4E27C7E0010091D473 /* AppDelegate.swift */,
 				9B755C5027C7E0010091D473 /* SceneDelegate.swift */,
 				9B755C5227C7E0010091D473 /* ViewController.swift */,
+				9B755C7E27C7E9980091D473 /* Fonts */,
 				9B755C5427C7E0010091D473 /* Main.storyboard */,
 				9B755C5727C7E0030091D473 /* Assets.xcassets */,
 				9B755C5927C7E0030091D473 /* LaunchScreen.storyboard */,
@@ -125,6 +128,14 @@
 				9B755C7127C7E0030091D473 /* TekSayfalikTasarimOdeviUITestsLaunchTests.swift */,
 			);
 			path = TekSayfalikTasarimOdeviUITests;
+			sourceTree = "<group>";
+		};
+		9B755C7E27C7E9980091D473 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9B755C7F27C7E9BD0091D473 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +244,7 @@
 			files = (
 				9B755C5B27C7E0030091D473 /* LaunchScreen.storyboard in Resources */,
 				9B755C5827C7E0030091D473 /* Assets.xcassets in Resources */,
+				9B755C8027C7E9BD0091D473 /* Roboto-Regular.ttf in Resources */,
 				9B755C5627C7E0010091D473 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
